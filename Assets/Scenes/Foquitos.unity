@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &125488774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848221054155153696, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &378961770
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +209,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384169611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89faf204c4af83c47825ea9a5069b41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &428587678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848221054155153708, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &564230391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848221054155153710, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &673959719
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +299,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &993826432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848221054155153704, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1063192360
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +725,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1847912186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 384169611}
+        m_MethodName: ActivateRepeating
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1847912186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,6 +849,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868261670}
   m_CullTransparentMesh: 0
+--- !u!1 &2102756871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848221054155153706, guid: 35a253c21f425b14bb6b7daf42f82206,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778941374367328196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5778941374367328196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -884,5 +937,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.data[0]
+      value: 
+      objectReference: {fileID: 125488774}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.data[1]
+      value: 
+      objectReference: {fileID: 564230391}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.data[2]
+      value: 
+      objectReference: {fileID: 428587678}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.data[3]
+      value: 
+      objectReference: {fileID: 2102756871}
+    - target: {fileID: 4337743128865692265, guid: 35a253c21f425b14bb6b7daf42f82206,
+        type: 3}
+      propertyPath: colors.Array.data[4]
+      value: 
+      objectReference: {fileID: 993826432}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35a253c21f425b14bb6b7daf42f82206, type: 3}
